@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context=".LoginScreenActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/l2"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="You have the potential to make beautiful things  " />
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSignup"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:text="Sign Up"
+                android:background="@drawable/bg"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnLogin"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/bg_button"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="Login"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-------------------------- OR--------------------------"/>
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:id="@+id/imgGoogle"
+                android:background="@null"
+                android:src="@drawable/g1" />
+
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:id="@+id/imgfacebook"
+                android:background="@null"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:src="@drawable/facebook" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
